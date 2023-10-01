@@ -40,12 +40,11 @@ public class WhoAreYou1 {
             // output to the screen
             System.out.println("In two years, you will be " + ageInTwoYears + " years old.");
 
+            // output thank you message
+            System.out.println("Thanks " + myName + ", have a good day!");
+
             
-            // read in string converting it to int
-            num = Integer.parseInt(myKB.readLine());
-             //output to the screen
-            System.out.println("The square of" + num +" is " + (num*num));
-             
+           
             
        }catch(Exception e) {
            System.out.println(" wrong code add number");
