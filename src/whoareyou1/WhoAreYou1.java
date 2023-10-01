@@ -33,6 +33,14 @@ public class WhoAreYou1 {
              //output to the screen
             System.out.println("Enter any Number");
             
+            System.out.println("Enter your age");  // prompt for age
+            int age = Integer.parseInt(myKB.readLine());  // read and convert age to int
+            int ageInTwoYears = age + 2;  // calculate age in two years
+
+            // output to the screen
+            System.out.println("In two years, you will be " + ageInTwoYears + " years old.");
+
+            
             // read in string converting it to int
             num = Integer.parseInt(myKB.readLine());
              //output to the screen
