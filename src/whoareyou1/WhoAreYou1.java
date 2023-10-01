@@ -29,9 +29,7 @@ public class WhoAreYou1 {
            //output to the screen
             System.out.println(" Hello " + myName + ". isnt this a great class ");
             
-            int num;
-             //output to the screen
-            System.out.println("Enter any Number");
+           
             
             System.out.println("Enter your age");  // prompt for age
             int age = Integer.parseInt(myKB.readLine());  // read and convert age to int
@@ -41,13 +39,13 @@ public class WhoAreYou1 {
             System.out.println("In two years, you will be " + ageInTwoYears + " years old.");
 
             // output thank you message
-            System.out.println("Thanks " + myName + ", have a good day!");
+            System.out.println("Thanks, have a good day " + myName + "!");
 
             
            
             
        }catch(Exception e) {
-           System.out.println(" wrong code add number");
+           System.out.println(" wrong Input, please enter valid age.");
        }
                
        
